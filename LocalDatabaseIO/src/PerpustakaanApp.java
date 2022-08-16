@@ -1,3 +1,5 @@
+import CRUD.Utility;
+
 import java.util.Scanner;
 
 public class PerpustakaanApp {
@@ -38,7 +40,7 @@ public class PerpustakaanApp {
                 default:
                     System.err.println("\nInput salah, gunakan angak 1-5 ");
             }
-
+            lanjutkanProses = Utility.yesNo(); //cek proses lanjutan
         }
 
     }
