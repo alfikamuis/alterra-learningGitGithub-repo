@@ -8,7 +8,7 @@ public class Utility {
         //yes or no
         String choice = "n";
         while(!choice.equalsIgnoreCase("y")){
-            System.out.print("Melanjutkan proses (y/n)?: ");
+            System.out.print("apakah lanjut gan?");
             choice = scan.nextLine();
             if (choice.equalsIgnoreCase("n")){return false;}
         }
